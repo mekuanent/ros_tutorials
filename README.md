@@ -5,9 +5,9 @@
 
 ## current available ros nodes
 
-- trump.py
-- media.py
+- trump.py: dispatches a series of sensless texts to the topic "tweet"
+- media.py: prints out to the screen messages received on the topic "tweet"
 
 ## current available ros topics
 
-- tweet
+- tweet: String data type topic
