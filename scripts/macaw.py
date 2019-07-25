@@ -5,9 +5,9 @@ from std_msgs.msg import String
 
 def talker():
     pub = rospy.Publisher('tweet', String, queue_size=10)
-    rospy.init_node('trump', anonymous=True)
+    rospy.init_node('Macaw', anonymous=True)
     rate = rospy.Rate(1)
-    tweets = ["I woke up", "Breakfast is dope!", "Better hit the crapper", "what! no toilet paper! SAD :(", "china is responsible for this!", "I'm gonna nuke it's capital city Paris."];
+    tweets = ["I woke up", "Breakfast is awesome!", "Better hit the gym"];
 
     index = 0
     while not rospy.is_shutdown():
